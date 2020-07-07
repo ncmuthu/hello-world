@@ -7,7 +7,13 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
-
+        <repositories>
+          <repository>
+           <id>central maven repo</id>
+           <name>central maven repo https</name>
+           <url>https://repo.maven.apache.org/maven2</url>
+          </repository>
+        </repositories>
 	<build>
 		<plugins>
 			<plugin>
